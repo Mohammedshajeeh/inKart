@@ -1,0 +1,125 @@
+//npm i react-native-ratings
+
+npm i react-native-actions-sheet popup in down
+
+share impl
+//////////////////////////////////////////////////
+     const result = await Share.share({
+                message:
+                    'React Native | A framework for building native apps using React',
+            });
+            if (result.action === Share.sharedAction) {
+                if (result.activityType) {
+                    // shared with activity type of result.activityType
+                } else {
+                    // shared
+                }
+            } else if (result.action === Share.dismissedAction) {
+                // dismissed
+            }
+        /////////////////////////////////////////////////////////////////////
+
+npm install @react-native-community/geolocation --save
+
+npm i react-native-maps
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+/////////////////////////
+
+app 109
+
+        {isLoggedIN ? (
+                                <AppStack.Screen name="AppDrawer" component={AppDrawer} />
+                            ) : (
+                                <>
+                                    {/* <AppStack.Screen name='Home' component={Home} options={{ headerShown: false }} /> */}
+                                    <AppStack.Screen name='Login' component={Login} />
+                                    <AppStack.Screen name='signUp' component={SignUp} />
+                                    <AppStack.Screen name='LoginPhone' component={LoginPhone} />
+                                </>
+                            )}
+
+
+                            ///////////////////
+
+
+                                            
+                                <AppStack.Screen name="AppDrawer" component={AppDrawer} />
+                     
+                                <>
+                                    {/* <AppStack.Screen name='Home' component={Home} options={{ headerShown: false }} /> */}
+                                    <AppStack.Screen name='Login' component={Login} />
+                                    <AppStack.Screen name='signUp' component={SignUp} />
+                                    <AppStack.Screen name='LoginPhone' component={LoginPhone} />
+                                </>
+                        
+                        </>
+                    )}
+
+
+                    ////////////////////////////////////////////////////////////////
+
+                    module.exports = {
+                            assets: ['./src/assets/fonts']
+}
+
+
+///////////////////////////////////////////////////////////////
+
+
+// {
+//   "project_info": {
+//     "project_number": "899212642637",
+//     "firebase_url": "https://inkart-e578d-default-rtdb.asia-southeast1.firebasedatabase.app",
+//     "project_id": "inkart-e578d",
+//     "storage_bucket": "inkart-e578d.appspot.com"
+//   },
+//   "client": [
+//     {
+//       "client_info": {
+//         "mobilesdk_app_id": "1:899212642637:android:29e67694574ae69a218f04",
+//         "android_client_info": {
+//           "package_name": "com.inkartadmin"
+//         }
+//       },
+//       "oauth_client": [
+//         {
+//           "client_id": "899212642637-g81heeq39hinu2hf3973302ge22iucia.apps.googleusercontent.com",
+//           "client_type": 1,
+//           "android_info": {
+//             "package_name": "com.inkartadmin",
+//             "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+//           }
+//         },
+//         {
+//           "client_id": "899212642637-ve42so29bl52kc03i59mt46i7lp9rorp.apps.googleusercontent.com",
+//           "client_type": 3
+//         }
+//       ],
+//       "api_key": [
+//         {
+//           "current_key": "AIzaSyDTx2dubYMHQZfOBRctCY7aDuOpHjo87zk"
+//         }
+//       ],
+//       "services": {
+//         "appinvite_service": {
+//           "other_platform_oauth_client": [
+//             {
+//               "client_id": "899212642637-ve42so29bl52kc03i59mt46i7lp9rorp.apps.googleusercontent.com",
+//               "client_type": 3
+//             }
+//           ]
+//         }
+//       }
+//     }
+//   ],
+//   "configuration_version": "1"
+// }
